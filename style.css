@@ -1,0 +1,30 @@
+img {
+  width: 90%;
+  max-width: 200px;
+  justify-self: center;
+  display: block;
+  margin: 0 auto;
+}
+
+ul {
+  list-style-type: none;
+  transition: 0.3s ease;
+}
+
+ul:hover {
+  transform: scale(0.98);
+}
+
+.movie-card {
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(black, 0.1);
+  padding: 15px;
+  border: 1px solid black;
+  margin: 20px;
+  transition: 0.3s ease-in;
+}
+
+.movie-card:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+}
